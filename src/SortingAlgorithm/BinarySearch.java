@@ -23,6 +23,6 @@ public class BinarySearch {
 	public static void main(String[] args){
 		int[] array = {1,2,3,4,5,6,7};
 		BinarySearch search = new BinarySearch();
-		System.out.println(search.Binary(array, 8));
+		System.out.println(search.Binary(array, 7));
 	}
 }

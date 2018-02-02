@@ -2,7 +2,7 @@ package SortingAlgorithm;
 
 /*
  * 排序方法	平均情况	            最坏情况	最好情况	           空间复杂度	           稳定性	                复杂性    
- * 快速排序	O(nlog2n)	O(n2)	O(nlog2n)	O(log2n)	不稳定	较复杂
+ * 快速排序	O(nlogn)	O(n2)	O(nlogn)	O(log2n)	不稳定	较复杂
  * 使用递归方法
  */
 // 分类 ------------ 内部比较排序

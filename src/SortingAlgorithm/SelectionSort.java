@@ -22,7 +22,7 @@ public class SelectionSort {
 	public void Selection(int[] array){
 		for(int i=0;i<array.length;i++){   //  定义已排序位置,i前面的就是已排序
 			int min = i;
-			for(int j=i;j<array.length;j++){   // 找出未排序的最小值位置
+			for(int j=i+1;j<array.length;j++){   // 找出未排序的最小值位置
 				if(array[j]<array[min]){
 					min = j;
 				}
@@ -33,7 +33,7 @@ public class SelectionSort {
 		}
 	}
 	public static void main(String[] args){
-		int[] array = {2,1,7,3,4,6,5,8};
+		int[] array = {3,2,1,7,3,4,6,5,8};
 		SelectionSort select = new SelectionSort();
 		select.Selection(array);
 		for(int i=0;i<array.length;i++){
