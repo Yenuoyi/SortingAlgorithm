@@ -1,4 +1,4 @@
-package SortingAlgorithm;
+package sorting.algorithm;
 
 public class AAA {
 	public void Swap(int[] array,int i,int j){
@@ -34,10 +34,10 @@ public class AAA {
 		}
 	}
 	public static void main(String[] args){
-		int array[] = { 1,2,3,4,5,6,7,8,9,9};// ´ÓÐ¡µ½´ó¶ÑÅÅÐò
+		int array[] = { 1,2,3,4,5,6,7,8,9,9};// ï¿½ï¿½Ð¡ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
 	    AAA heap = new AAA();;
 	    heap.headSort(array,array.length);
-	    System.out.println("¶ÑÅÅÐò½á¹û£º");
+	    System.out.println("ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½");
 	    for (int i = 0; i < array.length; i++)
 	    {
 	        System.out.print( array[i]+" ");

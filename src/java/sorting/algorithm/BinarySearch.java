@@ -1,6 +1,6 @@
-package SortingAlgorithm;
+package sorting.algorithm;
 
-//Õâ¸öÊÇ¶ş·Ö²éÕÒ·¨
+//ï¿½ï¿½ï¿½ï¿½Ç¶ï¿½ï¿½Ö²ï¿½ï¿½Ò·ï¿½
 public class BinarySearch {
 	public int Binary(int[] array,int n){
 		int mid = 0;
